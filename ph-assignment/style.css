@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* BANNER SECTION */
+
+.banner {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.text-box {
+  width: 90%;
+  position: absolute;
+  left: -40%;
+  top: 50%;
+  transform: translate(40%, -50%);
+  text-align: right;
+  font-style: normal;
+}
+.banner-head {
+  font-weight: bolder;
+  font-size: 65px;
+  line-height: 76px;
+  color: #151414;
+  text-align: right;
+}
+.text-box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  text-align: right;
+
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.banner-btn {
+  background: #f15b22;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 20px 26px;
+  transition: 0.3s all ease 0s;
+}
+
+.banner-btn:hover {
+  background: white;
+  color: #f15b22;
+}
+
+/* BANNER SECTION */
+/* FAILURE SECTION */
+
+.failure-item {
+  margin-top: 200px;
+}
+
+.failure-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 130px;
+  column-gap: 90px;
+  margin-right: 290px;
+}
+.failure-head {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.failure-box p {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.failure-box ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.tic-icon {
+  height: 18px;
+  width: 18px;
+  stroke: #16d887;
+  margin-right: 4px;
+}
+/* PLAN ITEMS */
+.plans {
+  margin: 0px auto;
+  margin-top: 130px;
+}
+.plans h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 64px;
+  text-align: center;
+}
+.plan-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
+}
+.item-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-head {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin-top: 24px;
+}
+.item-text {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/* CHALLENGE SECTION */
+.watch-overlay {
+  background-image: url(images/gradient2.png), url(images/watch.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 301px;
+  width: 1140px;
+}
+
+.watch-overlay {
+  display: block;
+  margin-top: 125px;
+  margin-bottom: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.watch-box {
+  display: inline-block;
+  margin: 59px 618px 59px 64px;
+}
+.watch-box h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+
+  margin-bottom: 24px;
+}
+.watch-box button {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  padding: 20px 36px;
+  border-radius: 5px;
+  color: #f15b22;
+  background-color: white;
+  transition: 0.3s all ease 0s;
+}
+
+.watch-box button:hover {
+  color: white;
+  background-color: #f15b22;
+}
+
+/* FOOTER SECTION */
+footer {
+  width: 100%;
+  height: 580px;
+  background-color: #151414;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 330px;
+}
+
+.social-section,
+.submit-section {
+  margin-top: 130px;
+}
+
+.social-head {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.social-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  margin-bottom: 24px;
+}
+.social-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.social-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.social-img {
+  display: flex;
+  column-gap: 4px;
+  margin-top: 32px;
+}
+.submit-box h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 325px;
+  height: 64px;
+  color: #f3f3f3;
+  padding: 0 16px;
+  background: #151414;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #ffffff;
+}
+
+.submit-box button {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f15b22;
+  padding: 20px 36px;
+  margin-top: 36px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s all ease 0s;
+}
+.submit-box button:hover {
+  color: white;
+  background-color: #f15b22;
+}
